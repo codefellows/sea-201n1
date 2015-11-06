@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <style>
+  .incorrect {
+    border: solid;
+    background-color: red;
+  }
+  </style>
+</head>
+<body>
+  <p id='one'>option 1</p>
+  <p id='two'>option 2</p>
+  <p id='three'>option 3</p>
+  <p id='three' class='incorrect'>option 3</p>
+  <script>
+    var choice = prompt('choose one');
+    document.getElementById(choice).className = 'incorrect'
+  </script
+</body>
